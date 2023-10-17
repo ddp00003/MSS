@@ -1,0 +1,164 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 15px;
+  color: #322f2f;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ 
+  h1 {
+    font-size: 30px;
+    margin: 8px 0;
+    background-color: #0bae6d;
+   
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #19d187;
+    color: rgb(253, 251, 251);
+    font-weight: 600;
+    z-index: 2;
+  }
+  .toolbar img {
+    margin: 0 30px;
+  }
+ /* .content {
+  color: red;
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+
+.footer {
+  text-align: center;
+  background-color: #0d0c0c9c;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* .footer-links a{
+  
+  text-decoration: none;
+  margin: 0 10px;
+} */
+
+/* Style links on hover (you can add more styles as needed) */
+.footer-links a{text-decoration: none;
+  color: purple;
+  margin:0 10px;
+}
+  
+.footer-links a:hover{
+      text-decoration: underline;
+      color:white;
+    }
+
+ 
+
+  
+  
+.signup-button:hover{
+  color: #000;
+}
+
+.signup-button {
+    position: absolute;
+    top: 20px;
+    z-index: 5;
+    right: 100px;
+    
+    background-color: rgba(241, 236, 236, 0.192);
+    border: none;
+    color: #333; /* Set the text color */
+    cursor: pointer; /* Add a pointer cursor for better user experience */
+}
+
+#submit-button {
+    margin-top: 10px;
+}
+.close {
+  color: #aaa;
+  position: relative;
+  margin: 0;
+  top: 2px;
+  left: 620px;
+  right: 10px;
+  width: 10px;
+  padding: 5px; /* Adjust this value to control the close button size */
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+#username,
+#email,
+#password {
+    margin-bottom: 10px;
+    margin-left: 0;
+    right: 100px; /* Add space between the input fields */
+    width: 100%; /* Expand the input fields to full width */
+    padding: 5px; /* Add some padding to the input fields */
+    text-align: center
+    
+}
+
+#submit-button {
+  margin-top: 10px;
+}
+
+
+.signup-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(156, 151, 151, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.signup-form {
+  display: block;
+  background-color: #fff;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #333;
+  
+  
+}
